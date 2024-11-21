@@ -1,0 +1,206 @@
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T144700.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T144653.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T144532.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T144337.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T143519.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T143127.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "new_user@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T142146.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "new_user@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T142117.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "new_user@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T141655.200.json
+
+###
+
+POST http://localhost:3000/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "new_user@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-21T141615.404.html
+
+###
+
+POST http://localhost:3000/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "new_user@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-11-19T193535.200.json
+
+###
+
+POST http://localhost:3000/login
+Accept: application/json
+Content-Length: 73
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+    "email": "new_user@example.com",
+    "password": "securepassword"
+}
+
+<> 2024-11-19T193236.404.json
+
+###
+
+GET http://localhost:3000/login
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 73
+
+{
+    "email": "new_user@example.com",
+    "password": "securepassword"
+}
+
+<> 2024-11-19T193153.404.html
+
+###
+
