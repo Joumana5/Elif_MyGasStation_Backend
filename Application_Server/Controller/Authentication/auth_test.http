@@ -1,9 +1,9 @@
 ### GET request to example server
-POST http://localhost:3000/login
+POST http://localhost:3000/auth/login
 Accept: application/json
 Content-Type: application/json
 
 {
-  "email": "new_user@example.com",
+  "email": "john.doe@example.com",
   "password": "securepassword"
 }
