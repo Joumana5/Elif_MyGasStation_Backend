@@ -10,8 +10,12 @@ export async function UserLogin(req, res) {
         });
         console.log('User found:', user); // Log the user found in the database
         if (user) {
-            const token = JWT.sign({ id: user.id }, 'secretkey');
-            res.status(200).json({ "message": "user logged", "token": token });
+            const token = JWT.sign({ id: user.id, role:user.role }, 'secretkey');
+            res.status(200).json({
+                "message": "user logged",
+                "token": token,
+                "role": user.role // Include the user's role in the response
+            });
         } else {
             res.status(404).json({ "message": "user not found" });
         }
