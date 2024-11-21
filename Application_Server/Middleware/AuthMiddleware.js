@@ -34,8 +34,8 @@ export function roleGuard(role) {
 export function redirectBasedOnRole(req, res) {
     if (req.user.role === 'manager') {
         res.redirect('/manager');
-    } else if (req.user.role === 'employee') {
-        res.redirect('/employee');
+    } else if (req.user.role === 'client') {
+        res.redirect('/client');
     } else {
         res.status(403).json({ message: 'Access Forbidden' });
     }
