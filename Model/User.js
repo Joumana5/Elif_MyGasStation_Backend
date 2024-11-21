@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         enum: ['client', 'manager'],
         required: true
-    }
+    },
 });
 
 export default mongoose.model('users', userSchema);
