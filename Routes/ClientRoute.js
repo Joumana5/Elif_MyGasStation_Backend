@@ -1,6 +1,6 @@
 import express from 'express';
 import { authGuard, roleGuard } from '../Middleware/AuthMiddleware.js';
-import { getClientProfile, updateClientProfile } from '../Controller/Client.js';
+import { getClientProfile, updateClientProfile } from '../Controller/Client/ClientController.js'; // Corrected import path
 
 const router = express.Router();
 
