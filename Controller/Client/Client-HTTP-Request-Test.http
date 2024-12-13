@@ -1,0 +1,23 @@
+### GET request to fetch client data
+GET http://localhost:3000/client/67585179d35cfc23e570deac
+Accept: application/json
+
+
+### PUT request to update client data
+PUT http://localhost:3000/client/update/67585179d35cfc23e570deac
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "John tahloula Updated",
+  "email": "john.doe.updated@example.com",
+  "phone": "098-765-4321"
+}
+
+###
+
+### DELETE request to remove a client
+DELETE http://localhost:3000/client/delete/673cd899e3cc01174693f08f
+Accept: application/json
+
+###

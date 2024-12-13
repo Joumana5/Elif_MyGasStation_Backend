@@ -11,7 +11,7 @@ const router = express.Router();
 
 router.get('/gas-station', authGuard, roleGuard('manager'), getGasStation);
 router.post('/gas-station', authGuard, roleGuard('manager'), createGasStation);
-router.put('/gas-station', authGuard, roleGuard('manager'), updateGasStation);
-router.delete('/gas-station', authGuard, roleGuard('manager'), deleteGasStation);
+router.put('/update/gas-station', authGuard, roleGuard('manager'), updateGasStation);
+router.delete('/delete/gas-station', authGuard, roleGuard('manager'), deleteGasStation);
 
 export default router;

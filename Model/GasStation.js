@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
-import Localization from './Localization.js';
 
-const GazStationSchema = new mongoose.Schema({
+const GasStationSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true
@@ -20,17 +19,13 @@ const GazStationSchema = new mongoose.Schema({
     },
     manager: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'users'
+        ref: 'users',
+        required: true
     }, // Reference to a single manager
-    clients: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'users'
-    }], // List of clients
     location: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Localization',
+        type: String,
         required: true
     }
 });
 
-export default mongoose.model('GazStation', GazStationSchema);
+export default mongoose.model('GasStation', GasStationSchema);

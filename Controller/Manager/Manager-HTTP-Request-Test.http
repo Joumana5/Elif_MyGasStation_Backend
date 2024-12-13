@@ -1,0 +1,41 @@
+### GET request to fetch manager's gas station
+GET http://localhost:3000/manager/gas-station
+Accept: application/json
+
+###
+
+### POST request to create a new gas station
+POST http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "New Gas Station",
+  "available": true,
+  "yearOfCreation": 2024,
+  "address": "123 Main St",
+  "location": "https://www.google.com/maps/place/R%C3%A9sidence+Diar+Ben+Mahmoud/@36.7854727,10.0782792,17z/data=!3m1!4b1!4m6!3m5!1s0x12fd2e000248f8b3:0x199212e73eb6415d!8m2!3d36.7854684!4d10.0808541!16s%2Fg%2F1ptyrwcdr?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D"
+}
+
+###
+
+### PUT request to update manager's gas station
+PUT http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Updated Gas Station",
+  "available": false,
+  "yearOfCreation": 2025,
+  "address": "456 Elm St",
+  "location": "60d0fe4f5311236168a109cb"
+}
+
+###
+
+### DELETE request to remove manager's gas station
+DELETE http://localhost:3000/manager/gas-station
+Accept: application/json
+
+###

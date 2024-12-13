@@ -3,7 +3,7 @@ import GasStation from '../../Model/GasStation.js';
 // Get manager's gas station
 export async function getGasStation(req, res) {
     try {
-        const gasStation = await GasStation.findOne({ manager: req.user.id }).populate('location');
+        const gasStation = await GasStation.findOne({ manager: req.user.id });
         if (gasStation) {
             res.status(200).json(gasStation);
         } else {
@@ -32,7 +32,7 @@ export async function updateGasStation(req, res) {
             { manager: req.user.id },
             req.body,
             { new: true }
-        ).populate('location');
+        );
         if (updatedGasStation) {
             res.status(200).json(updatedGasStation);
         } else {

@@ -4,6 +4,18 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "email": "john.doe@example.com",
-  "password": "securepassword"
+  "email": "john.doe.updated@example.com",
+  "password": "adminpassword"
+}
+
+### POST request to register a new user
+POST http://localhost:3000/auth/register
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "new_user",
+  "email": "new_user@example.com",
+  "password": "securepassword",
+  "role": "client"
 }
