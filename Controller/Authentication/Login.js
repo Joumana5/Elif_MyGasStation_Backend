@@ -9,17 +9,10 @@ export async function UserLogin(req, res) {
         });
         if (user) {
             const token = JWT.sign({ id: user.id, role: user.role }, 'secretkey');
-            let redirectUrl = '/dashboard';
-            if (user.role === 'manager') {
-                redirectUrl = '/manager/dashboard';
-            } else if (user.role === 'client') {
-                redirectUrl = '/dashboard/client';
-            }
             res.status(200).json({
                 "message": "user logged",
                 "token": token,
                 "role": user.role, // Include the user's role in the response
-                "redirectUrl": redirectUrl // Include the redirection URL in the response
             });
         } else {
             res.status(404).json({ "message": "user not found" });

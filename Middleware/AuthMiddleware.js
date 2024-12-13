@@ -30,11 +30,13 @@ export function roleGuard(role) {
     };
 }
 
-export function redirectBasedOnRole(req, res) {
+export function handleRoleBasedAccess(req, res) {
     if (req.user.role === 'manager') {
-        res.redirect('/manager');
+        // Handle manager-specific logic
+        res.send('Welcome, Manager!');
     } else if (req.user.role === 'client') {
-        res.redirect('/client');
+        // Handle client-specific logic
+        res.send('Welcome, Client!');
     } else {
         res.status(403).json({ message: 'Access Forbidden' });
     }

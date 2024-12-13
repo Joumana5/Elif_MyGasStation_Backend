@@ -10,6 +10,134 @@ Accept-Encoding: br, deflate, gzip, x-gzip
   "password": "securepassword"
 }
 
+<> 2024-12-13T150653.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-12-13T144600.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-12-13T135709.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-12-13T135651.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-12-13T135312.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-12-13T135228.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-12-13T135225.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
+<> 2024-12-13T135144.200.json
+
+###
+
+POST http://localhost:3000/auth/login
+Accept: application/json
+Content-Type: application/json
+Content-Length: 69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "email": "john.doe@example.com",
+  "password": "securepassword"
+}
+
 <> 2024-11-21T150832.200.json
 
 ###
