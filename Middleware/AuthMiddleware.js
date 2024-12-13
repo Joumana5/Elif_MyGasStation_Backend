@@ -7,7 +7,6 @@ export async function authGuard(req, res, next) {
     if (!token) {
         return res.status(401).json({ message: 'Access Denied' });
     }
-
     try {
         const decoded = JWT.verify(token, 'secretkey');
         const user = await User.findById(decoded.id);
@@ -28,16 +27,5 @@ export function roleGuard(role) {
         }
         next();
     };
-}
 
-export function handleRoleBasedAccess(req, res) {
-    if (req.user.role === 'manager') {
-        // Handle manager-specific logic
-        res.send('Welcome, Manager!');
-    } else if (req.user.role === 'client') {
-        // Handle client-specific logic
-        res.send('Welcome, Client!');
-    } else {
-        res.status(403).json({ message: 'Access Forbidden' });
-    }
 }

@@ -1,6 +1,0 @@
-{
-  "message": "user logged",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2YzNjFiNGU3NmM1OGMyODg5YmJjNiIsInJvbGUiOiJtYW5hZ2VyIiwiaWF0IjoxNzMyMTk2ODEzfQ.bOGefsoHYQJUN0mC1lv5I82XfN7ilJP89qSVPNfyqMo",
-  "role": "manager",
-  "redirectUrl": "/manager/dashboard"
-}

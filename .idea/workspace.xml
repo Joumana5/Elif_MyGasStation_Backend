@@ -5,27 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ceb8f75-d30e-4fce-97d9-76f1623b6f3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/Client/Client-HTTP-Request-Test.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/Manager/Manager-HTTP-Request-Test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-19T193153.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-19T193236.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-19T193535.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T141615.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T141655.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T142117.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T142146.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T143127.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T143519.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T144337.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T144532.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T144653.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-21T144700.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Authentication/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Authentication/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Authentication/auth_test.http" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Authentication/auth_test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Client/ClientController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Client/ClientController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/GasStation/MapFragment.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Authentication/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/GasStation/MapFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Manager/Manager-HTTP-Request-Test.http" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Manager/Manager-HTTP-Request-Test.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Manager/ManagerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Manager/ManagerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middleware/AuthMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/Middleware/AuthMiddleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/GasStation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/GasStation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Localization.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes/AuthRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/AuthRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes/ClientRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/ClientRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes/LocationRoute.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Routes/ManagerRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/ManagerRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,11 @@
     "HTTP Request.Client-HTTP-Request-Test | GET request to fetch client data.executor": "Run",
     "HTTP Request.Client-HTTP-Request-Test | PUT request to update client data.executor": "Run",
     "HTTP Request.Manager-HTTP-Request-Test | #2.executor": "Run",
+    "HTTP Request.Manager-HTTP-Request-Test | DELETE request to remove a gas station.executor": "Run",
+    "HTTP Request.Manager-HTTP-Request-Test | GET request to remove a gas station.executor": "Run",
+    "HTTP Request.Manager-HTTP-Request-Test | GET request to retrieve gas stations.executor": "Run",
+    "HTTP Request.Manager-HTTP-Request-Test | POST request to add a new gas station.executor": "Run",
+    "HTTP Request.Manager-HTTP-Request-Test | PUT request to update a gas station.executor": "Run",
     "HTTP Request.auth_test | GET request to example server.executor": "Run",
     "Node.js.index.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,17 +96,17 @@
       <recent name="C:\MyStudies\My_repo\Elif_MyGasStation_Backend\Controller\Client" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration name="Client-HTTP-Request-Test | PUT request to update client data" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Controller/Client/Client-HTTP-Request-Test.http" index="2" requestIdentifier="PUT request to update client data" runType="Run single request">
+  <component name="RunManager" selected="HTTP Request.Manager-HTTP-Request-Test | DELETE request to remove a gas station">
+    <configuration name="Manager-HTTP-Request-Test | DELETE request to remove a gas station" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Controller/Manager/Manager-HTTP-Request-Test.http" index="4" requestIdentifier="DELETE request to remove a gas station" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="Client-HTTP-Request-Test | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Controller/Client/Client-HTTP-Request-Test.http" index="3" requestIdentifier="#3" runType="Run single request">
+    <configuration name="Manager-HTTP-Request-Test | GET request to remove a gas station" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Controller/Manager/Manager-HTTP-Request-Test.http" index="5" requestIdentifier="GET request to remove a gas station" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="Manager-HTTP-Request-Test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Controller/Manager/Manager-HTTP-Request-Test.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="Manager-HTTP-Request-Test | POST request to add a new gas station" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Controller/Manager/Manager-HTTP-Request-Test.http" requestIdentifier="POST request to add a new gas station" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="auth_test | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Controller/Authentication/auth_test.http" requestIdentifier="GET request to example server" runType="Run single request">
+    <configuration name="Manager-HTTP-Request-Test | PUT request to update a gas station" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Controller/Manager/Manager-HTTP-Request-Test.http" index="3" requestIdentifier="PUT request to update a gas station" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
@@ -110,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.Manager-HTTP-Request-Test | DELETE request to remove a gas station" />
         <item itemvalue="Node.js.index.js" />
-        <item itemvalue="HTTP Request.Manager-HTTP-Request-Test | #2" />
-        <item itemvalue="HTTP Request.auth_test | GET request to example server" />
-        <item itemvalue="HTTP Request.Client-HTTP-Request-Test | PUT request to update client data" />
-        <item itemvalue="HTTP Request.Client-HTTP-Request-Test | #3" />
+        <item itemvalue="HTTP Request.Manager-HTTP-Request-Test | GET request to remove a gas station" />
+        <item itemvalue="HTTP Request.Manager-HTTP-Request-Test | POST request to add a new gas station" />
+        <item itemvalue="HTTP Request.Manager-HTTP-Request-Test | PUT request to update a gas station" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +144,7 @@
       <workItem from="1732194177385" duration="2575000" />
       <workItem from="1732198063358" duration="2503000" />
       <workItem from="1733840373281" duration="1985000" />
-      <workItem from="1734093753880" duration="11458000" />
+      <workItem from="1734093753880" duration="15207000" />
     </task>
     <servers />
   </component>

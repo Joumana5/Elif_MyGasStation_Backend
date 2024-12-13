@@ -1,9 +1,20 @@
 import GasStation from '../../Model/GasStation.js';
 
-// Get manager's gas station
-export async function getGasStation(req, res) {
+// Get all gas stations
+export async function getAllGasStations(req, res) {
     try {
-        const gasStation = await GasStation.findOne({ manager: req.user.id });
+        const gasStations = await GasStation.find().populate('location');
+        res.status(200).json(gasStations);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+}
+
+// Get gas station by ID
+export async function getGasStation(req, res) {
+    const { id } = req.params;
+    try {
+        const gasStation = await GasStation.findById(id).populate('location');
         if (gasStation) {
             res.status(200).json(gasStation);
         } else {
@@ -17,7 +28,7 @@ export async function getGasStation(req, res) {
 // Create a new gas station
 export async function createGasStation(req, res) {
     try {
-        const newGasStation = new GasStation({ ...req.body, manager: req.user.id });
+        const newGasStation = new GasStation(req.body);
         const savedGasStation = await newGasStation.save();
         res.status(201).json(savedGasStation);
     } catch (err) {
@@ -25,14 +36,15 @@ export async function createGasStation(req, res) {
     }
 }
 
-// Update gas station
+// Update gas station by ID
 export async function updateGasStation(req, res) {
+    const { id } = req.params;
     try {
-        const updatedGasStation = await GasStation.findOneAndUpdate(
-            { manager: req.user.id },
+        const updatedGasStation = await GasStation.findByIdAndUpdate(
+            id,
             req.body,
             { new: true }
-        );
+        ).populate('location');
         if (updatedGasStation) {
             res.status(200).json(updatedGasStation);
         } else {
@@ -43,10 +55,11 @@ export async function updateGasStation(req, res) {
     }
 }
 
-// Delete gas station
+// Delete gas station by ID
 export async function deleteGasStation(req, res) {
+    const { id } = req.params;
     try {
-        const deletedGasStation = await GasStation.findOneAndDelete({ manager: req.user.id });
+        const deletedGasStation = await GasStation.findByIdAndDelete(id);
         if (deletedGasStation) {
             res.status(200).json({ message: 'Gas station deleted' });
         } else {

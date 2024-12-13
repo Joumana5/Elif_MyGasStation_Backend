@@ -1,3 +1,381 @@
+DELETE http://localhost:3000/manager/gas-station/675c6c2efece8243dd1712fa
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T185135.200.json
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T185012.200.json
+
+###
+
+GET http://localhost:3000/manager/all/gas-stations
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T185009.200.json
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184850.404.json
+
+###
+
+GET http://localhost:3000/manager/all/gas-stations
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184829.200.json
+
+###
+
+GET http://localhost:3000/all/manager/gas-stations
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184816.404.html
+
+###
+
+GET http://localhost:3000/all/manager/gas-stations
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184736.404.html
+
+###
+
+GET http://localhost:3000/all/manager/gas-stations
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184730.404.html
+
+###
+
+GET http://localhost:3000/all/manager/gas-stations
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184629.404.html
+
+###
+
+GET http://localhost:3000/manager/gas-stations
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184604.200.json
+
+###
+
+GET http://localhost:3000/manager/gas-station
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184344.404.html
+
+###
+
+GET http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184337.404.html
+
+###
+
+POST http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+Content-Length: 197
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Independent boterma bo gitar  Gas Station",
+  "available": true,
+  "yearOfCreation": 2023,
+  "address": "456 Anot321654456645her St, City, Country",
+  "location": "123.456, -789.123"
+}
+
+<> 2024-12-13T184150.201.json
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184132.404.json
+
+###
+
+PUT http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+Accept: application/json
+Content-Type: application/json
+Content-Length: 185
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Updated Gas St boterma bo ka3lousa ation",
+  "available": false,
+  "yearOfCreation": 2022,
+  "address": "789 Updated St, City, Country",
+  "location": "321.654, -987.321"
+}
+
+<> 2024-12-13T184128.200.json
+
+###
+
+PUT http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+Content-Length: 221
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": "675c6d77fece8243dd1712fc",
+  "name": "Updated Gas St boterma bo ka3lousa ation",
+  "available": false,
+  "yearOfCreation": 2022,
+  "address": "789 Updated St, City, Country",
+  "location": "321.654, -987.321"
+}
+
+<> 2024-12-13T184112.404.html
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184055.404.json
+
+###
+
+GET http://localhost:3000/manager/get/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184021.200.json
+
+###
+
+GET http://localhost:3000/manager/get/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T184011.200.json
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6c2efece8243dd1712fa
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T183959.404.json
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T183948.404.json
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T183923.404.json
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T183759.404.html
+
+###
+
+DELETE http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T183705.404.html
+
+###
+
+PUT http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+Content-Length: 200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": "675c6d77fece8243dd1712fc",
+  "name": "Updated Gas Station",
+  "available": false,
+  "yearOfCreation": 2022,
+  "address": "789 Updated St, City, Country",
+  "location": "321.654, -987.321"
+}
+
+<> 2024-12-13T183514.200.json
+
+###
+
+GET http://localhost:3000/manager/get/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T183503.404.html
+
+###
+
+GET http://localhost:3000/manager/get/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T183350.404.html
+
+###
+
+GET http://localhost:3000/manager/get/gas-station/675c6d77fece8243dd1712fc
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-13T183313.404.html
+
+###
+
+GET http://localhost:3000/manager/get/gas-station/675c6d77fece8243dd1712fc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-12-13T183308.404.html
+
+###
+
+GET http://localhost:3000/manager/gas-station/675c6d77fece8243dd1712fc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-12-13T183216.404.html
+
+###
+
+PUT http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+Content-Length: 200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": "675c6d77fece8243dd1712fc",
+  "name": "Updated Gas Station",
+  "available": false,
+  "yearOfCreation": 2022,
+  "address": "789 Updated St, City, Country",
+  "location": "321.654, -987.321"
+}
+
+<> 2024-12-13T183201.500.json
+
+###
+
+PUT http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+Content-Length: 200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": "675c6c2efece8243dd1712fa",
+  "name": "Updated Gas Station",
+  "available": false,
+  "yearOfCreation": 2022,
+  "address": "789 Updated St, City, Country",
+  "location": "321.654, -987.321"
+}
+
+<> 2024-12-13T183117.500.json
+
+###
+
 POST http://localhost:3000/auth/login
 Accept: application/json
 Content-Type: application/json
@@ -10,7 +388,62 @@ Accept-Encoding: br, deflate, gzip, x-gzip
   "password": "adminpassword"
 }
 
-<> 2024-12-13T165811.200.json
+<> 2024-12-13T182406.200.json
+
+###
+
+POST http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+Content-Length: 170
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Independent Gas Station",
+  "available": true,
+  "yearOfCreation": 2023,
+  "address": "456 Anot321her St, City, Country",
+  "location": "123.456, -789.123"
+}
+
+<> 2024-12-13T182303.201.json
+
+###
+
+POST http://localhost:3000/manager/gas-station
+Accept: application/json
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "Independent Gas Station",
+  "available": true,
+  "yearOfCreation": 2023,
+  "address": "456 Another St, City, Country",
+  "location": "123.456, -789.123"
+}
+
+<> 2024-12-13T181734.201.json
+
+###
+
+PUT http://localhost:3000/client/update/67585179d35cfc23e570deac
+Accept: application/json
+Content-Type: application/json
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "username": "John tahloula Updated",
+  "email": "john.doe.updated@example.com",
+  "phone": "098-765-4321"
+}
+
+<> 2024-12-13T175949.200.json
 
 ###
 
@@ -192,545 +625,6 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 }
 
 <> 2024-12-13T162006.200.json
-
-###
-
-PUT http://localhost:3000/client/update/673cd899e3cc01174693f08f
-Accept: application/json
-Content-Type: application/json
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "name": "John tahloula Updated",
-  "email": "john.doe.updated@example.com",
-  "phone": "098-765-4321"
-}
-
-<> 2024-12-13T161948.200.json
-
-###
-
-GET http://localhost:3000/client/get/673cd899e3cc01174693f08f
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-12-13T161945.404.html
-
-###
-
-PUT http://localhost:3000/client/update/673f361b4e76c58c2889bbc6
-Accept: application/json
-Content-Type: application/json
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "name": "John tahloula Updated",
-  "email": "john.doe.updated@example.com",
-  "phone": "098-765-4321"
-}
-
-<> 2024-12-13T161924.404.json
-
-###
-
-GET http://localhost:3000/client/get/673f361b4e76c58c2889bbc6
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-12-13T161916.404.html
-
-###
-
-GET http://localhost:3000/client/get/673f361b4e76c58c2889bbc6
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-12-13T161854.404.html
-
-###
-
-GET http://localhost:3000/client/673f361b4e76c58c2889bbc6
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-12-13T161847.404.html
-
-###
-
-DELETE http://localhost:3000/client/673f361b4e76c58c2889bbc6
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-content-length: 0
-
-<> 2024-12-13T161549.200.json
-
-###
-
-DELETE http://localhost:3000/client/673f361b4e76c58c2889bbc6
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-content-length: 0
-
-<> 2024-12-13T161428.404.html
-
-###
-
-PUT http://localhost:3000/client/update/673f361b4e76c58c2889bbc6
-Accept: application/json
-Content-Type: application/json
-Content-Length: 102
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "name": "John Doe Updated",
-  "email": "john.doe.updated@example.com",
-  "phone": "098-765-4321"
-}
-
-<> 2024-12-13T161255.200.json
-
-###
-
-PUT http://localhost:3000/client/673f361b4e76c58c2889bbc6
-Accept: application/json
-Content-Type: application/json
-Content-Length: 102
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "name": "John Doe Updated",
-  "email": "john.doe.updated@example.com",
-  "phone": "098-765-4321"
-}
-
-<> 2024-12-13T161114.404.html
-
-###
-
-PUT http://localhost:3000/client/673f361b4e76c58c2889bbc6
-Accept: application/json
-Content-Type: application/json
-Content-Length: 102
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "name": "John Doe Updated",
-  "email": "john.doe.updated@example.com",
-  "phone": "098-765-4321"
-}
-
-<> 2024-12-13T160806.404.html
-
-###
-
-PUT http://localhost:3000/client/673f361b4e76c58c2889bbc6
-Accept: application/json
-Content-Type: application/json
-Content-Length: 102
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "name": "John Doe Updated",
-  "email": "john.doe.updated@example.com",
-  "phone": "098-765-4321"
-}
-
-<> 2024-12-13T155104.404.html
-
-###
-
-PUT http://localhost:3000/client/673f361b4e76c58c2889bbc6
-Accept: application/json
-Content-Type: application/json
-Content-Length: 102
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "name": "John Doe Updated",
-  "email": "john.doe.updated@example.com",
-  "phone": "098-765-4321"
-}
-
-<> 2024-12-13T155038.404.html
-
-###
-
-POST http://localhost:3000/client
-Accept: application/json
-Content-Type: application/json
-Content-Length: 174
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "id": 10,
-  "username": "manager_one",
-  "email": "manager_one@example.com",
-  "password": "securepassword1",
-  "role": "manager",
-  "createdAt": "2023-10-01T12:00:00Z"
-}
-
-<> 2024-12-13T152151.404.html
-
-###
-
-POST http://localhost:3000/client
-Accept: application/json
-Content-Type: application/json
-Content-Length: 174
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "id": 10,
-  "username": "manager_one",
-  "email": "manager_one@example.com",
-  "password": "securepassword1",
-  "role": "manager",
-  "createdAt": "2023-10-01T12:00:00Z"
-}
-
-<> 2024-12-13T152117.404.html
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-12-13T150653.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-12-13T144600.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-12-13T135709.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-12-13T135651.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-12-13T135312.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-12-13T135228.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-12-13T135225.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-12-13T135144.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T150832.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T144700.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T144653.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T144532.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T144337.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T143519.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "john.doe@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T143127.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "new_user@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T142146.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "new_user@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T142117.200.json
-
-###
-
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "new_user@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T141655.200.json
-
-###
-
-POST http://localhost:3000/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "new_user@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-21T141615.404.html
-
-###
-
-POST http://localhost:3000/login
-Accept: application/json
-Content-Type: application/json
-Content-Length: 69
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-{
-  "email": "new_user@example.com",
-  "password": "securepassword"
-}
-
-<> 2024-11-19T193535.200.json
 
 ###
 
