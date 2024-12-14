@@ -1,18 +1,15 @@
 import express from 'express';
-import { sendEmail } from '../Services/emailService.js'; // Adjust the import path as necessary
+import { sendEmail } from '../Services/MailService.js';
 
 const router = express.Router();
 
-router.post('/send-email', async (req, res) => {
+router.post('/send', async (req, res) => {
     const { to, subject, text } = req.body;
-
     try {
         await sendEmail(to, subject, text);
-        console.log('Email sent successfully.');
-        return res.send("Email sent successfully");
+        res.status(200).json({ message: 'Email sent successfully' });
     } catch (error) {
-        console.error('Error sending email:', error);
-        return res.status(500).send("There was a problem sending the email");
+        res.status(500).json({ message: 'Failed to send email', error: error.message });
     }
 });
 

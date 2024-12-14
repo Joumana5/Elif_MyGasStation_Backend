@@ -1,0 +1,9 @@
+### POST request to send an email
+POST http://localhost:3000/mail/send
+Content-Type: application/json
+
+{
+  "to": "zonegaming514@gmail.com",
+  "subject": "Test Email",
+  "text": "This is a test email."
+}

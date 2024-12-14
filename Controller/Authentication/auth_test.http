@@ -1,12 +1,12 @@
-### GET request to example server
-POST http://localhost:3000/auth/login
-Accept: application/json
-Content-Type: application/json
-
-{
-  "email": "john.doe.updated@example.com",
-  "password": "adminpassword"
-}
+#### GET request to example server
+#POST http://localhost:3000/auth/login
+#Accept: application/json
+#Content-Type: application/json
+#
+#{
+#  "email": "john.doe.updated@example.com",
+#  "password": "adminpassword"
+#}
 
 ### POST request to register a new user
 POST http://localhost:3000/auth/register
@@ -15,7 +15,18 @@ Content-Type: application/json
 
 {
   "username": "new_user",
-  "email": "new_user@example.com",
+  "email": "zonegaming514@gmail.com",
   "password": "securepassword",
-  "role": "client"
+  "role": "client",
+  "age": 25,
+  "userLastName": "Doe"
+}
+### POST request to verify email
+POST http://localhost:3000/auth/verify-email
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "zonegaming514@gmail.com",
+  "verificationCode": "806140"
 }
